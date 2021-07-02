@@ -30,7 +30,7 @@ Function alows to:
 
 To get names of child services to "Service A" run query:
 ```sql
-SELECT childname FROM its_servicetree_byname(1, 'Service A');
+SELECT * FROM its_servicetree_byname(1, 'Service A');
 ```
 Response: "Service B" "Service C"
 
