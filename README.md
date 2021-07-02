@@ -36,7 +36,7 @@ Response: "Service B" "Service C"
 
 To get names of child services to "Service A" and child services to this services (level 2 in tree) run query:
 ```sql
-SELECT * FROM its_servicetree_byname(1, 'Service A');
+SELECT * FROM its_servicetree_byname(2, 'Service A');
 ```
 Response: "Service B" "Service C" "Service D" "Service E"
 
