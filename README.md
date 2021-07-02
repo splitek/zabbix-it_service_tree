@@ -18,7 +18,7 @@ Zabbix API "service.get" method allows to retrieve services according to the giv
 
 Problems:
 1. If we ask for "Service A" we will get info that this service has child services "Service B" and "Service C", but response do not show us names but IDs of this services. So we need to run one more request to resolve names
-2. If we also need child services to this services from point 1 (childs of Service B and C) then we need to run another request. If there will be more levels in tree then we need more request
+2. If we also need child services to this services from point 1 (childs of Service B and C) then we need to run another request. If there will be more levels in tree then we need more requests
 3. If there are more levels in the tree, we need to use more queries (recursion)
 
 Function alows to:
